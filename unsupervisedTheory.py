@@ -69,3 +69,45 @@ For points ((2, 3)), ((4, 7)), and ((6, 1)), the centroid is:
 
 
 """
+
+""" Euclidean distance is the straight-line distance between two points in Euclidean space.
+For two points
+
+Role in Unsupervised ML
+Clustering (e.g., k-means): Euclidean distance is used to measure the similarity between data 
+points and centroids. 
+Points closer together (smaller distance) are considered more similar and grouped into the 
+same cluster.
+Anomaly Detection: Outliers are data points that are far from the majority (large Euclidean
+distance from cluster centroids).
+
+"""
+
+""" Variance
+Variance measures how far data points are spread out from the mean (average) value.
+
+High variance: Data points are widely spread out from the mean.
+Low variance: Data points are close to the mean.
+
+In unsupervised ML:
+Variance helps to understand the diversity or heterogeneity of a dataset. 
+For example, in clustering, variance within clusters is minimized
+to ensure that similar data points are grouped together.
+
+
+
+Spread
+Spread is a general term for how much the data values vary. It refers to the range or 
+dispersion of the data.
+
+Common measures of spread:
+Range: Difference between the largest and smallest values.
+Interquartile range (IQR): Range of the middle 50% of values.
+Standard deviation: The square root of variance, also measures spread.
+In unsupervised ML:
+Understanding the spread of data helps in:
+
+Deciding the number of clusters.
+Identifying outliers or anomalies.
+Choosing appropriate distance metrics.
+"""
